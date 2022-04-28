@@ -12,16 +12,16 @@ public class Violao5Cordas extends VioloesPrototype {
     
     protected Violao5Cordas(Violao5Cordas violaoCincoCorda){
         this.valor = violaoCincoCorda.getValor();
-	this.descricao = violaoCincoCorda.getDescricao();
-	this.eletrico = violaoCincoCorda.getEletrico();
-	this.tipoCorda = violaoCincoCorda.getTipoCorda();
+	    this.descricao = violaoCincoCorda.getDescricao();
+	    this.eletrico = violaoCincoCorda.getEletrico();
+	    this.tipoCorda = violaoCincoCorda.getTipoCorda();
     }
     
     public Violao5Cordas(){
         this.valor = 0.0;
-	this.descricao = "";
-	this.eletrico = false;
-	this.tipoCorda = "";
+	    this.descricao = "";
+	    this.eletrico = false;
+	    this.tipoCorda = "";
     }
     
     @Override
