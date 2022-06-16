@@ -11,7 +11,7 @@ package com.mycompany.prototypefabricavioloes;
 public class Violao6Cordas extends VioloesPrototype {
     
     protected Violao6Cordas(Violao6Cordas violaoSeisCorda){
-        this.valor = violaoSeisCorda.getValor();
+            this.valor = violaoSeisCorda.getValor();
 	    this.descricao = violaoSeisCorda.getDescricao();
 	    this.eletrico = violaoSeisCorda.getEletrico();
 	    this.tipoCorda = violaoSeisCorda.getTipoCorda();

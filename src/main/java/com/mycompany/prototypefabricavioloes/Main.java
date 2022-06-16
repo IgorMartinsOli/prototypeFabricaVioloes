@@ -28,6 +28,8 @@ public class Main {
         classico.setTipoCorda("Nylon");
         classico.setValor(2000.00);
         
+        System.out.println(classico.getDescricao());
+        
         VioloesPrototype folk = PrototypeViolao6Cordas.clonar();
         //TODO complementar atributos
         
